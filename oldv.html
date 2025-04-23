@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhruv's Robots</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .projects {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .project {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .project img {
+            width: 300px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .project-content {
+            padding: 20px;
+            flex: 1;
+        }
+
+        .project-content h2 {
+            margin: 0 0 10px;
+            font-size: 1.5rem;
+        }
+
+        .project-content p {
+            margin: 0 0 10px;
+        }
+
+        .project-content a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .project-content a:hover {
+            text-decoration: underline;
+        }
+
+        .about {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .about h2 {
+            margin: 0 0 10px;
+        }
+
+        .about p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dhruv's Robots</h1>
+        <nav>
+            <a href="#projects">Projects</a>
+            <a href="#about">About Me</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="projects" class="projects">
+            <div class="project">
+                <img src="pics/airmotop.jpg"  alt="Project 1">
+    
+                <div class="project-content">
+                    <h2>AirMo-V1.0</h2>
+                    <p>AirMo is my latest creation: a wireless, gesture-based, wearable computer mouse designed to revolutionize the way we interact with computers. 
+                        Traditional computer mice are medically proven to strain your wrists over time. AirMo offers an innovative solution by utilizing an accelerometer 
+                        and gyroscope to track hand movements, seamlessly translating them into mouse cursor control.</p>
+
+                     <P> Equipped with two triggers on its underside, AirMo enables essential functionalities like right-clicking, left-clicking, and even gesture-based scrolling. 
+                        It is fully capable of performing everything a traditional mouse can do, but what sets AirMo apart is its reprogrammable nature. You can customize it to 
+                        execute tasks such as adjusting volume, copying, cutting, pasting, or any other action you need, all through gestures and button combinations. </P>
+
+                    <P>As a wireless device, AirMo provides unparalleled freedom of movement, allowing you to interact with your computer from virtually anywhere within range.</P> 
+
+                        <P> Currently in its first prototype phase, AirMo is an ongoing project 
+                            I’m actively developing throughout the semester. I’m planning to implement many new features and improvements in 
+                            future versions to enhance its functionality and user experience. Stay tuned for updates as I continue to push the boundaries of wearable technology with AirMo!
+                         </p>
+                    <a href="https://www.youtube.com/" target="_blank">Watch Demonstration</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <div class="project-content">
+                    <h2>Assistive Web Navigation Device</h2>
+                    <p>This project was created to empower differently-abled individuals to browse the internet and navigate their computers without relying on traditional keyboards and mice. 
+                        It addresses challenges faced by individuals who may have a missing hand, fingers, or arm, offering a fully customizable solution tailored to their specific needs.</p>
+                    <p>In its current prototype, the device is designed for individuals without hands. It allows users to control the mouse cursor using head movements while enabling 
+                        additional functionalities like clicking, starting voice typing, and accessing keyboard capabilities. 
+                        These are achieved through touch sensor buttons integrated into a wearable vest—in this case, a modified t-shirt.</p>
+                        <P>This wired system aims to provide seamless and intuitive computer interaction for users with diverse abilities. 
+                            Since this project was made during a hackathon, the prototype looks rushed and messy, but it laid the groundwork for further exploration and development. </P>
+                    <a href="https://www.youtube.com/" target="_blank">Watch Demonstration</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="project3.jpg" alt="Project 3">
+                <div class="project-content">
+                    <h2>Auto room lights</h2>
+                    <p>This project was inspired by my dad’s frustration with my habit of forgetting to turn off the lights when leaving my room. 
+                        While exploring options for an automatic light switcher, I noticed a significant flaw in common motion-detected lights: they turn off even if someone is
+                         still in the room but not moving. To solve this issue, I designed a more reliable system.</p>
+                    <p>The device is positioned at the room’s entrance and connects to the lights via a relay. It detects and counts people entering and leaving the room using high-precision, 
+                        long-distance IR sensors. When someone enters the room, the lights automatically turn on and remain on until the person leaves. This ensures that the lights
+                         won’t turn off unexpectedly while someone is still inside. Additionally, I incorporated a manual override option, 
+                         allowing the lights to be controlled wirelessly through an app for added convenience. </p>
+                    <p>This solution eliminates unnecessary energy usage without the drawbacks of traditional motion-activated systems, offering a smarter and more user-friendly approach to light automation.</p>
+                    <a href="https://www.youtube.com/" target="_blank">Watch Demonstration</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>Hi! I'm passionate about robotics and love building innovative solutions to real-world problems. Here, I share my journey and projects to inspire others to explore the exciting world of robotics.</p>
+        </section>
+    </main>
+</body>
+</html>
