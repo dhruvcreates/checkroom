@@ -1,15 +1,182 @@
 [
-    {
-      "room": "RECCENTR 3200 (74)",
-      "event": "SPAD 3010 002",
-      "start": "09:30 AM",
-      "end": "10:49 AM"
-    },
-    {
-      "room": "RECCENTR 3210 (74)",
-      "event": "EECE 2051C 001",
-      "start": "11:00 AM",
-      "end": "12:15 PM"
-    }
-  ]
-  
+  {
+    "room": "RECCENTR 3200 (74)",
+    "event": "SPAD 3010 002 49339 2251",
+    "start": "09:30 AM",
+    "end": "10:49 AM"
+  },
+  {
+    "room": "RECCENTR 3200 (74)",
+    "event": "SPAD 3010 001 49337 2251",
+    "start": "11:00 AM",
+    "end": "12:19 PM"
+  },
+  {
+    "room": "RECCENTR 3200 (74)",
+    "event": "AEEM 2013 001 47169 2251",
+    "start": "12:30 PM",
+    "end": "01:49 PM"
+  },
+  {
+    "room": "RECCENTR 3200 (74)",
+    "event": "CJ 1001 001 50182 2251",
+    "start": "02:00 PM",
+    "end": "03:19 PM"
+  },
+  {
+    "room": "RECCENTR 3200 (74)",
+    "event": "JOUR 2020 001 50385 2251",
+    "start": "03:30 PM",
+    "end": "04:49 PM"
+  },
+  {
+    "room": "RECCENTR 3200 (74)",
+    "event": "CM 5010 001 49373 2251",
+    "start": "06:00 PM",
+    "end": "08:49 PM"
+  },
+  {
+    "room": "RECCENTR 3210 (74)",
+    "event": "EECE 2051C 001 44509 2251",
+    "start": "08:00 AM",
+    "end": "08:54 AM"
+  },
+  {
+    "room": "RECCENTR 3210 (74)",
+    "event": "PD 7010 002 45162 2251",
+    "start": "09:30 AM",
+    "end": "10:24 AM"
+  },
+  {
+    "room": "RECCENTR 3210 (74)",
+    "event": "MECH 3011 002 44900 2251",
+    "start": "11:00 AM",
+    "end": "12:19 PM"
+  },
+  {
+    "room": "RECCENTR 3210 (74)",
+    "event": "MECH 3022 001 44802 2251",
+    "start": "01:24 PM",
+    "end": "02:19 PM"
+  },
+  {
+    "room": "RECCENTR 3210 (74)",
+    "event": "MECH 3022 002 49079 2251",
+    "start": "02:30 PM",
+    "end": "03:24 PM"
+  },
+  {
+    "room": "RECCENTR 3220 (74)",
+    "event": "SPAD 3020 001 49340 2251",
+    "start": "08:00 AM",
+    "end": "09:19 AM"
+  },
+  {
+    "room": "RECCENTR 3220 (74)",
+    "event": "AE 1011 001 50391 2251",
+    "start": "10:09 AM",
+    "end": "01:49 PM"
+  },
+  {
+    "room": "RECCENTR 3220 (74)",
+    "event": "Chloe Cole Speaker Event",
+    "start": "05:30 PM",
+    "end": "09:00 PM"
+  },
+  {
+    "room": "RECCENTR 3230 (74)",
+    "event": "MECH 3042 001 44803 2251",
+    "start": "09:30 AM",
+    "end": "10:49 AM"
+  },
+  {
+    "room": "RECCENTR 3230 (74)",
+    "event": "BME 7020C 001 CS 52610 2251",
+    "start": "11:00 AM",
+    "end": "12:19 PM"
+  },
+  {
+    "room": "RECCENTR 3230 (74)",
+    "event": "BME 3050 001 CS 45766 2251",
+    "start": "11:00 AM",
+    "end": "12:19 PM"
+  },
+  {
+    "room": "RECCENTR 3230 (74)",
+    "event": "CS 6052 001 CS 44650 2251",
+    "start": "12:30 PM",
+    "end": "01:49 PM"
+  },
+  {
+    "room": "RECCENTR 3230 (74)",
+    "event": "CS 5152 001 CS 44639 2251",
+    "start": "12:30 PM",
+    "end": "01:49 PM"
+  },
+  {
+    "room": "RECCENTR 3230 (74)",
+    "event": "ORGL 2050 001 50191 2251",
+    "start": "02:00 PM",
+    "end": "03:19 PM"
+  },
+  {
+    "room": "RECCENTR 3230 (74)",
+    "event": "Delta Phi Lambda Chapter",
+    "start": "06:30 PM",
+    "end": "09:00 PM"
+  },
+  {
+    "room": "RECCENTR 3240 (74)",
+    "event": "CSD 1071 001 45125 2251",
+    "start": "09:30 AM",
+    "end": "10:49 AM"
+  },
+  {
+    "room": "RECCENTR 3240 (74)",
+    "event": "COMM 1076 001 45105 2251",
+    "start": "11:00 AM",
+    "end": "12:19 PM"
+  },
+  {
+    "room": "RECCENTR 3240 (74)",
+    "event": "CHE 2064 001 48016 2251",
+    "start": "12:30 PM",
+    "end": "01:49 PM"
+  },
+  {
+    "room": "RECCENTR 3240 (74)",
+    "event": "AEEM 6092 001 CS 47267 2251",
+    "start": "02:00 PM",
+    "end": "03:19 PM"
+  },
+  {
+    "room": "RECCENTR 3240 (74)",
+    "event": "AEEM 5092 001 CS 47266 2251",
+    "start": "02:00 PM",
+    "end": "03:19 PM"
+  },
+  {
+    "room": "RECCENTR 3250 (74)",
+    "event": "CHEM 3030 001 40795 2251",
+    "start": "09:30 AM",
+    "end": "10:49 AM"
+  },
+  {
+    "room": "RECCENTR 3250 (74)",
+    "event": "EECE 2051C 002 44510 2251",
+    "start": "11:15 AM",
+    "end": "12:09 PM"
+  },
+  {
+    "room": "RECCENTR 3250 (74)",
+    "event": "JOUR 1030 001 50372 2251",
+    "start": "02:00 PM",
+    "end": "03:19 PM"
+  },
+  {
+    "room": "RECCENTR 3250 (74)",
+    "event": "POL 2089 001 50496 2251",
+    "start": "03:30 PM",
+    "end": "04:49 PM"
+  }
+]
